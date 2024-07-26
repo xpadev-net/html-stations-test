@@ -4,11 +4,9 @@
     "cpus": 2
   },
   "waitFor": "onCreateCommand",
-  "updateContentCommand": "yarn install && yarn add http-server",
+  "updateContentCommand": "yarn install",
   "postCreateCommand": "",
-  "postAttachCommand": {
-    "server": "yarn http-server"
-  },
+  "postAttachCommand": "",
   "customizations": {
     "codespaces": {
       "openFiles": [
@@ -17,15 +15,9 @@
     },
     "vscode":{
       "extensions":[
-        "techtrain.railway-vscode"
+        "techtrain.railway-vscode",
+        "ms-vscode.live-server"
       ]
     }
-  },
-  "portsAttributes": {
-    "3000": {
-      "label": "Application",
-      "onAutoForward": "openPreview"
-    }
-  },
-  "forwardPorts": [8080]
+  }
 }
