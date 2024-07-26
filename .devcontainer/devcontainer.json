@@ -8,11 +8,6 @@
   "postCreateCommand": "",
   "postAttachCommand": "",
   "customizations": {
-    "codespaces": {
-      "openFiles": [
-        "src/station1.html"
-      ]
-    },
     "vscode":{
       "extensions":[
         "techtrain.railway-vscode",
