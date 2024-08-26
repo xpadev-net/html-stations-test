@@ -13,6 +13,12 @@
         "techtrain.railway-vscode",
         "ms-vscode.live-server"
       ]
+    },
+    "codespaces": {
+      "openFiles": [
+        "README.md",
+        "src/station1.html"
+      ]
     }
   }
 }
